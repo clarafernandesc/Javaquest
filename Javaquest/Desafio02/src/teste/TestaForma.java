@@ -1,7 +1,7 @@
 package teste;
 import  org.junit.Assert;
-import dominio.Forma;
 import org.junit.Test;
+import dominio.Forma;
 
 public class TestaForma {
 	@Test
@@ -29,6 +29,6 @@ public class TestaForma {
 	public void testNaoTriangulo(){
 		Forma forma = new Forma(2.1f, 2.0f, 4.1f);
 		String tipoForma = forma.verificaForma();
-		Assert.assertEquals(tipoForma, "n„o eh um triangulo");
+		Assert.assertEquals(tipoForma, "n√£o eh um triangulo");
 	}
 }
