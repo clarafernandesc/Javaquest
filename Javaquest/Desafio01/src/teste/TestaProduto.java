@@ -1,7 +1,7 @@
 package teste;
 import org.junit.Assert;
-import dominio.Produto;
 import org.junit.Test;
+import dominio.Produto;
 
 public class TestaProduto {
 	@Test
