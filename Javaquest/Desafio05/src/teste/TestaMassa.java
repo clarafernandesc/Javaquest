@@ -1,7 +1,6 @@
 package teste;
 import org.junit.Assert;
 import org.junit.Test;
-
 import dominio.Massa;
 
 public class TestaMassa {
